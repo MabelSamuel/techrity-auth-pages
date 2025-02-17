@@ -9,9 +9,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "var(--color-primary)",
+        secondary: "var(--color-secondary)",
+        secondary50: "var(--color-secondary-50)",
+        neutral: "var(--color-neutral)",
       },
+      fontFamily: {
+        adamina: "var(--font-adamina)",
+        raleway: "var(--font-raleway)",
+      }
     },
   },
   plugins: [],
