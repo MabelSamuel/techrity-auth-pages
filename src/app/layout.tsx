@@ -8,19 +8,19 @@ const adamina = Adamina({
   weight: "400",
   variable: "--font-adamina",
   subsets: ["latin"],
-})
+});
 
 const raleway = Raleway({
   variable: "--font-raleway",
   subsets: ["latin"],
-})
+});
 
 // const nowAlt = localFont({
-//   src: "/fonts/NowAlt-Regular.otf",
+//   src: "fonts/NowAlt-Regular.otf",
 // });
 
 // const helvetica = localFont({
-//   src: "/fonts/Helvetica.ttf",
+//   src: "fonts/Helvetica.ttf",
 // });
 
 export const metadata: Metadata = {
@@ -35,11 +35,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`max-w-[1920px] mx-auto grid grid-cols-2 ${adamina.variable} ${raleway.variable} antialiased`}
-      >
-        <SideFrame />
-        <main className="bg-secondary">{children}</main> 
+      <body className={`${adamina.variable} ${raleway.variable} antialiased`}>
+        <div className="mx-auto max-w-[1920px] min-h-screen grid grid-cols-2">
+          <SideFrame />
+          <main className="bg-secondary">{children}</main>
+        </div>
       </body>
     </html>
   );
