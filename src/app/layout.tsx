@@ -35,8 +35,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${adamina.variable} ${raleway.variable} antialiased`}>
-        <div className="mx-auto max-w-[1920px] min-h-screen grid grid-cols-2">
+      <body className={`${adamina.variable} ${raleway.variable} font-nowAlt antialiased`}>
+        <div className="mx-auto w-[1920px] h-[1080px] grid grid-cols-[848px_1fr]">
           <SideFrame />
           <main className="bg-secondary">{children}</main>
         </div>

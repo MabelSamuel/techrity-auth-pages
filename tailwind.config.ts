@@ -17,6 +17,8 @@ export default {
       fontFamily: {
         adamina: "var(--font-adamina)",
         raleway: "var(--font-raleway)",
+        nowAlt: ["NowAlt", "sans-serif"],
+        helvetica: ["Helvetica", "sans-serif"],
       }
     },
   },
