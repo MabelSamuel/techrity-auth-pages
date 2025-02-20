@@ -2,7 +2,7 @@
 import Image from "next/image";
 
 export default function SideFrame() {
-  const backToWebsite = () => {
+  const backToWebsite = (): void => {
     window.location.href = "https://www.techrity.org";
   };
   return (

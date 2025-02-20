@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Adamina, Raleway } from "next/font/google";
-import localFont from "next/font/local";
 import "./globals.css";
 import SideFrame from "@/app/components/SideFrame";
 
@@ -14,14 +13,6 @@ const raleway = Raleway({
   variable: "--font-raleway",
   subsets: ["latin"],
 });
-
-// const nowAlt = localFont({
-//   src: "fonts/NowAlt-Regular.otf",
-// });
-
-// const helvetica = localFont({
-//   src: "fonts/Helvetica.ttf",
-// });
 
 export const metadata: Metadata = {
   title: "Techrity Sign up",
