@@ -12,6 +12,7 @@ export default {
         primary: "var(--color-primary)",
         secondary: "var(--color-secondary)",
         secondary50: "var(--color-secondary-50)",
+        secondary100: "var(--color-secondary-100)",
         neutral: "var(--color-neutral)",
       },
       fontFamily: {
