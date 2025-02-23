@@ -18,12 +18,15 @@
 
 :root {
   --color-primary: #463A93;
+  --color-primary-100: #8875B6;
   --color-secondary: #ffffff;
   --color-secondary-50: #E7DEFD;
   --color-secondary-100: #49484C;
   --color-secondary-200: #AEAEB2;
+  --color-secondary-300: #AFAFAF;
   --color-neutral: #1C1C1E;
   --color-neutral-100: #231F20;
+  --color-neutral-200: #343330;
   ;
 }
 
