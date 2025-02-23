@@ -17,7 +17,7 @@ export default function Home() {
             Continue with email
           </label>
           <div className="relative w-full ">
-            <Image src="/assets/EnvelopeSimple.png" width={24} height={24} className="absolute"/>
+            <Image src="/assets/EnvelopeSimple.png" alt="Email" width={24} height={24} className="absolute"/>
             <input
               type="email"
               className="w-full px-[24px] py-[16px] border border-secondary100 rounded-[8px] focus:outline-none focus:border-primary100"
