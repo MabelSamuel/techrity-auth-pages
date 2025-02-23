@@ -1,3 +1,4 @@
+import Button from "@/app/components/Button";
 import Title from "@/app/components/Title";
 import Link from "next/link";
 
@@ -15,10 +16,11 @@ export default function Home() {
           </label>
           <input
             type="email"
-            className="w-full px-[24px] py-[16px] border border-secondary100 rounded-[8px]"
+            className="w-full px-[24px] py-[16px] border border-secondary100 rounded-[8px] focus:outline-none focus:border-primary"
             placeholder="example@gmail.com"
           />
         </div>
+        <Button content="Sign up" />
       </div>
       <div className="space-y-[32px] text-secondary100 ">
         <p className="text-center">

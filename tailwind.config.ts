@@ -13,7 +13,9 @@ export default {
         secondary: "var(--color-secondary)",
         secondary50: "var(--color-secondary-50)",
         secondary100: "var(--color-secondary-100)",
+        secondary200: "var(--color-secondary-200)",
         neutral: "var(--color-neutral)",
+        neutral100: "var(--color-neutral-100)",
       },
       fontFamily: {
         adamina: "var(--font-adamina)",
