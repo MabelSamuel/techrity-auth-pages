@@ -1,3 +1,4 @@
+"use client";
 import Button from "@/app/components/Button";
 import OrLine from "@/app/components/OrLine";
 import Title from "@/app/components/Title";
@@ -26,7 +27,7 @@ export default function Home() {
           </div>
         </div>
         <div className="space-y-[38px]">
-          <Button content="Sign up" />
+          <Button content="Sign up"  />
           <OrLine />
           <Button content="Sign up with Google" icon={true} variant="black" />
         </div>
